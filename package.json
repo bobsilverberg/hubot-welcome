@@ -1,6 +1,6 @@
 {
   "name": "hubot-welcome",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Welcome IRC visitors to your IRC channel",
   "main": "index.coffee",
   "scripts": {

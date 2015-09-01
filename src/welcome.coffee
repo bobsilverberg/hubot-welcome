@@ -30,7 +30,7 @@ module.exports = (robot) ->
 
   if robot.adapter.bot?.addListener?
     robot.adapter.bot.addListener 'nick', (old_nick, new_nick, channels, message) ->
-      add_nick new_nick
+      add_nicks new_nick
 
     robot.adapter.bot.addListener 'names', (room, nicks) ->
       add_nicks Object.keys nicks
@@ -41,5 +41,5 @@ module.exports = (robot) ->
       if user.name in robot.brain.data.nicks
         robot.logger.debug "Already know #{user.name}"
         return
-      add_nick user.name
+      add_nicks user.name
       res.send welcomeMsg.replace "{nick}", user.name
