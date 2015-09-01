@@ -1,0 +1,30 @@
+{
+  "name": "hubot-welcome",
+  "version": "0.0.1",
+  "description": "Welcome IRC visitors to your IRC channel",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobsilverberg/hubot-welcome.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "welcome"
+  ],
+  "author": "Bob Silverberg <bob.silverberg@gmail.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/bobsilverberg/hubot-welcome/issues"
+  },
+  "homepage": "https://github.com/bobsilverberg/hubot-welcome",
+  "dependencies": {
+    "coffee-script": "^1.6.0"
+  },
+  "peerDependencies": {
+    "hubot": "2.x"
+  }
+}
